@@ -111,9 +111,13 @@ Una vez corriendo el backend:
 ## 🧪 **Endpoints Principales (Resumen)**
 
 -GET      /api/productos        Obtener todos los productos
+
 -GET      /api/productos/{id}   Obtener por ID
+
 -POST     /api/productos        Crear un producto
+
 -PUT      /api/productos/{id}   Actualizar producto
+
 -DELETE   /api/productos/{id}   Eliminar producto
 
 ------------------------------------------------------------------------
