@@ -144,13 +144,12 @@ public WebMvcConfigurer corsConfigurer() {
 
 ## 👥 **Autores**
 
-  Nombre             Rol                       Institución
-  ------------------ ------------------------- -------------
-  **Javier Muñoz**   Desarrollador Fullstack   DUOC UC
-  **Matías Cerda**   Desarrollador Backend     DUOC UC
+**Javier Muñoz**
+**Nicola Osses**
+**Jairo Huaman**
 
-**Sección:** 002D\
-**Asignatura:** Ingeniería de Soluciones con Inteligencia Artificial\
+**Sección:** 003D\
+**Asignatura:** Desarrollo Fullstack\
 **Año:** 2025
 
 ------------------------------------------------------------------------
