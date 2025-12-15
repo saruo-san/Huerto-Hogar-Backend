@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:14
+    container_name: huerto-postgres
+    environment:
+      POSTGRES_USER: huerto
+      POSTGRES_PASSWORD: huerto
+      POSTGRES_DB: huerto
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "huerto"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  adminer:
+    image: adminer:4
+    container_name: huerto-adminer
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+volumes:
+  pgdata:
